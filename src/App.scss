@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -11,8 +13,10 @@
 
 	width: 100%;
 	height: 80vh;
-	background-image: url('../public/images/screeone.png');
+	// background-image: url('../public/images/screeone.png');
+	background-color: main-color;
 	background-repeat: no-repeat;
+	background-size: cover;
 
 	.heading {
 		display: flex;
@@ -76,6 +80,7 @@
 	height: 50vh;
 	background-image: url('../public/images/screenthree.png');
 	background-repeat: no-repeat;
+	background-size: cover;
 
 	.wrapper {
 		width: 70%;

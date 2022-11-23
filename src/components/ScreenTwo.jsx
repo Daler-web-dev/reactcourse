@@ -1,11 +1,16 @@
 import React from "react";
 
 const ScreenTwo = () => {
+
+	const myFunc = () => {
+		console.log('hello');
+	}
+
 	return (
 		<section className="screenTwo" >
 			<h2>About Us</h2>
 			<img src="/icons/beens.svg" alt="" />
-			<p>
+			<p onClick={myFunc} >
 				Extremity sweetness difficult behaviour he of. On disposal of as
 				landlord horrible. Afraid at highly months do things on at.
 				Situation recommend objection do intention so questions. As
